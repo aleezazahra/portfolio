@@ -8,7 +8,7 @@ import { FaInstagram,FaDiscord, FaTwitter, FaGithub,FaSpotify ,FaPinterest} from
 function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [typedText, setTypedText] = useState("");
-  const fullText = " 17y/o with niche(performative) interests :3";
+  const fullText = "   17y/o with niche(performative) interests :3";
 
   useEffect(() => {
     if (darkMode) {
@@ -102,7 +102,7 @@ emailjs
               <span className="animate-pulse font-bold ml-0.5">|</span>
             </p>
 
-      <div className="flex gap-3 mt-4 justify-start lg:justify-center">
+      <div className="flex gap-3 mt-10 justify-start lg:justify-center">
         <a href="https://github.com/aleezazahra" target="_blank">
           <FaGithub className="text-zinc-600 dark:text-white hover:text-zinc-600" size={30} />
         </a>
