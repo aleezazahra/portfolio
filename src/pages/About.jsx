@@ -12,53 +12,7 @@ function About() {
       <div className="max-w-3xl mx-auto mb-24 text-center">
        
 
-        <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed font-light">
-          I'm a 17y/o{" "}
-          <span className="font-semibold text-zinc-900 dark:text-white">
-            Full Stack Web Developer
-          </span>{" "}
-          and AI/ML enthusiast. I also rice my Linux setup whenever I can.
-        </p>
-      </div>
-
   
-      <div className="max-w-4xl mx-auto mb-28 -mt-10">
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-10">
-
-          <div className="flex flex-col items-center justify-center group">
-            <FaJs size={66} className="text-yellow-400 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <SiTypescript size={64} className="text-blue-500 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <FaReact size={64} className="text-cyan-400 animate-[spin_20s_linear_infinite] group-hover:scale-110 transition-transform" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <FaNode size={64} className="text-green-500 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <SiTailwindcss size={64} className="text-sky-400 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <SiMongodb size={64} className="text-green-500 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <SiPostgresql size={64} className="text-blue-600 transition-transform group-hover:scale-110" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center group">
-            <FaPython size={64} className="text-yellow-500 transition-transform group-hover:scale-110" />
-          </div>
-
-        </div>
-      </div>
 
 <div className="max-w-3xl mx-auto -mt-4 text-center px-2">
 
@@ -104,6 +58,45 @@ function About() {
         → Aleeza’s Letterboxd
       </a>
     </div>
+
+      
+      <div className="max-w-4xl mx-auto mb-28 -mt-10">
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-10">
+
+          <div className="flex flex-col items-center justify-center group">
+            <FaJs size={66} className="text-yellow-400 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <SiTypescript size={64} className="text-blue-500 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <FaReact size={64} className="text-cyan-400 animate-[spin_20s_linear_infinite] group-hover:scale-110 transition-transform" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <FaNode size={64} className="text-green-500 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <SiTailwindcss size={64} className="text-sky-400 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <SiMongodb size={64} className="text-green-500 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <SiPostgresql size={64} className="text-blue-600 transition-transform group-hover:scale-110" />
+          </div>
+
+          <div className="flex flex-col items-center justify-center group">
+            <FaPython size={64} className="text-yellow-500 transition-transform group-hover:scale-110" />
+          </div>
+
+        </div>
+      </div>
 
   </div>
 </div>
