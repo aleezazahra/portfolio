@@ -239,9 +239,6 @@ emailjs
           azahradum@gmail.com
         </a>
       </p>
-      <p className="text-gray-700 dark:text-gray-300 mb-2">
-        <strong>Phone:</strong> +92 335 6294268
-      </p>
       <p className="text-gray-700 dark:text-gray-300">
         <strong>Location:</strong> Islamabad, Pakistan
       </p>
