@@ -8,7 +8,7 @@ import { FaInstagram,FaDiscord, FaTwitter, FaGithub,FaSpotify ,FaPinterest} from
 function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [typedText, setTypedText] = useState("");
-  const fullText = " niche(performative) interests :3";
+  const fullText = "   niche(performative) interests :3";
 
   useEffect(() => {
     if (darkMode) {
